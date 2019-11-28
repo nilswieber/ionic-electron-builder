@@ -4,4 +4,4 @@ RUN dpkg --add-architecture i386 && apt-get update && apt-get install wine64 -y 
 
 CMD ["sh"]
 
-ENTRYPOINT ["/bin/bash","-l","-c"]
+ENTRYPOINT [""]
